@@ -7,6 +7,7 @@ This can result in the loss of funds because the send() function will throw an e
 but the ether will still be sent to the address 0x0. To prevent this, it is important to 
 always check the return value of send() and ensure that it is equal to true before proceeding.
 */
+
 contract Attacker {
     function attack(address  payable _target) public {
         _target.send(1 ether);
