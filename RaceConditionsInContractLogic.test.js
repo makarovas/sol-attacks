@@ -1,5 +1,5 @@
 var Vulnerable = artifacts.require(
-  "/Users/alexmakarov/projs/solidity/attacks/solidity-vulnerabilities/RaceConditionsInContractLogic.sol"
+  "./RaceConditionsInContractLogic.sol"
 );
 
 contract("Vulnerable", (accounts) => {

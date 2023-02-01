@@ -1,5 +1,5 @@
 var Attacker = artifacts.require(
-  "/Users/alexmakarov/projs/solidity/attacks/solidity-vulnerabilities/ReentrancyAttacks.sol"
+  "./ReentrancyAttacks.sol"
 );
 
 contract("Attacker", (accounts) => {
