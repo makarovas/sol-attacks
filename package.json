@@ -1,0 +1,23 @@
+{
+  "name": "solidity-vulnerabilities",
+  "version": "1.0.0",
+  "description": "Smart contract development has gained immense popularity in the past few years. However, smart contracts, like any other software, can have security vulnerabilities that can lead to financial losses. This document outlines some of the most dangerous vulnerabilities in Solidity, the programming language used for writing smart contracts on the Ethereum blockchain.",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makarovas/sol-attacks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/makarovas/sol-attacks/issues"
+  },
+  "homepage": "https://github.com/makarovas/sol-attacks#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.1"
+  }
+}
